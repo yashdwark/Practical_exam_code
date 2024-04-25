@@ -1,0 +1,271 @@
+* {
+    margin: 0%;
+    padding: 0%;
+}
+
+.navbar {
+    background-color: #25495f;
+    padding: 0% 0%;
+    /* height: 15vh; */
+}
+
+.navbar-brand img {
+    width: 30%;
+    height: 50%;
+}
+
+.navbar-light .navbar-nav .nav-link {
+    color: #fff;
+}
+
+.inquiry-btn {
+    background: #deb38c;
+    padding: 4%;
+}
+
+.banner {
+    background-color: #25495f;
+    width: 100%;
+    align-items: center;
+    padding: 2% 2%;
+    text-align: left;
+}
+
+.banner h4 {
+    color: #fff;
+    font-family: Graphik;
+    font-size: 51px;
+    font-weight: 300;
+    line-height: 56px;
+    text-align: left;
+}
+
+.banner p {
+    color: #fff;
+    font-family: Graphik;
+}
+
+.banner-section {
+    display: flex;
+    /* align-items: center; */
+    justify-content: space-between;
+}
+
+.img img {
+    vertical-align: middle;
+    border-style: none;
+    width: 22%;
+}
+
+.slider img {
+    width: 100%;
+}
+
+.carousel-control-prev,
+.carousel-control-next {
+    position: absolute;
+    top: 100%;
+    transform: translateY(-50%);
+    z-index: 10;
+    width: 5%;
+    height: 100%;
+    font-size: 20px;
+    color: #fff;
+    text-align: center;
+    text-shadow: 0 0 3px rgba(0, 0, 0, 0.5);
+    background: #25495f;
+    border: none;
+    outline: none;
+}
+
+.carousel-control-prev {
+    left: 0;
+}
+
+.carousel-control-next,
+.carousel-control-next,
+.carousel-control-prev,
+.carousel-control-prev .carousel-control-next {
+    top: 50%;
+    height: 6%;
+}
+
+.welcome-section {
+    background-color: #deb38c;
+    height: 545px;
+}
+
+.welcome-section h4 {
+    margin: 0 auto;
+    padding-top: 2%;
+    text-align: center;
+    font-family: Quicksand;
+    font-size: 37px;
+    font-weight: 500;
+    line-height: 45px;
+    text-align: center;
+}
+
+.welcome-section p {
+    font-family: Quicksand;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 25px;
+    text-align: center;
+    padding: 2% 2%;
+    width: 50%;
+    margin: 0 auto;
+}
+
+.image_slider_section img {
+    width: 50%;
+    margin: -10px auto;
+    border: 20px solid #fff;
+}
+
+.image_slider_section {
+    display: flex;
+    justify-content: center;
+    /* align-items: flex-start; */
+}
+
+.content-slider>p {
+    text-align: left;
+    font-family: Graphik;
+    font-size: 17px;
+    font-weight: 600;
+    line-height: 37px;
+    padding: 2% 2%;
+}
+
+.content-slider img {
+    width: 50%;
+}
+
+.content-slider strong {
+    color: #b29462;
+}
+
+.content-slider {
+    background-color: #25495f;
+    color: #fff;
+    width: 30%;
+    margin: 0 auto;
+    position: absolute;
+    transform: translate(-106%, 24%);
+}
+
+.slide_btn img {
+    border: none;
+    width: 30%;
+}
+
+.slide_btn {
+    display: flex;
+    flex-direction: row-reverse;
+    width: 41%;
+    float: right;
+}
+
+.img_1 img {
+    width: 100%;
+}
+
+.title {
+    text-align: center;
+    padding: 2% 2%;
+    font-family: Quicksand;
+    font-size: 37px;
+    font-weight: 500;
+    line-height: 46.25px;
+    text-align: center;
+}
+
+.main-gallery-section {
+    margin: 14% 10%;
+}
+
+.gallery-section {
+    display: flex;
+    align-items: center;
+    /* gap: 10px; */
+    flex: 1;
+}
+
+.img_1 img {
+    width: 90%;
+}
+
+.container {
+    display: inline-grid;
+    grid-template-columns: repeat(auto-fill, minmax(calc(16% - 20px), 1fr));
+    grid-gap: 20px;
+}
+
+.section,
+.section-2 {
+    width: 100%;
+    padding: 10px;
+}
+
+.section-2 {
+    background-color: #25495f;
+}
+
+.section p,
+.section-2 p {
+    font-family: Quicksand;
+    padding: 5% 2%;
+    font-size: 16px;
+    line-height: 22px;
+    text-align: center;
+}
+
+.section-2 p {
+    color: #fff;
+}
+
+.section img {
+    width: 50%;
+}
+
+.banner_360 img {
+    width: 100%;
+    height: 100%;
+}
+
+.contant_us_banner img {
+    width: 100%;
+    height: 100%;
+}
+
+.footer {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    /* padding: 3% 3%; */
+}
+
+.contact-info-1,
+.contact-info-2 {
+    width: 80%;
+}
+
+.contact-info-1 p,
+.contact-info-2 p {
+    padding: 2%;
+    width: 50%;
+}
+
+.contact-info-2 p {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    width: 100%;
+}
+
+@media screen and (max-width: 768px) {
+    .gallery-section {
+        flex-direction: column;
+    }
+}
